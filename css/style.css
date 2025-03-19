@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(45deg, #000, #000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.player {
+    background: gold;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+#song-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.controls button {
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#progress {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.volume-container {
+    margin-top: 10px;
+}
